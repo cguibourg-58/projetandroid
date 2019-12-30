@@ -18,9 +18,9 @@
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
+        android:id="@+id/nav_bubble"
         android:name="com.example.projetandroid.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:label="@string/menu_bubble"
         tools:layout="@layout/fragment_slideshow" />
 
     <fragment
