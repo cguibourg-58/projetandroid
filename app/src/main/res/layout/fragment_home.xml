@@ -22,9 +22,10 @@
         tools:visibility="invisible" />
 
     <TextView
-        android:layout_width="357dp"
-        android:layout_height="170dp"
+        android:layout_width="337dp"
+        android:layout_height="110dp"
         android:layout_marginTop="32dp"
+        android:gravity="center"
         android:text="@string/welcomeMessage"
         android:textColor="@android:color/background_dark"
         android:textSize="18sp"
