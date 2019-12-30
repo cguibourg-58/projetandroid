@@ -14,7 +14,7 @@ import android.view.View.OnTouchListener
 //import android.R.id
 import android.widget.TextView
 import com.example.projetandroid.R
-import kotlinx.android.synthetic.main.fragment_slideshow.*
+import kotlinx.android.synthetic.main.fragment_bubble.*
 
 
 class CustomView: View, OnTouchListener {

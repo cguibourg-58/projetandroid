@@ -21,7 +21,7 @@
         android:id="@+id/nav_bubble"
         android:name="com.example.projetandroid.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_bubble"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_bubble" />
 
     <fragment
         android:id="@+id/nav_tools"
@@ -30,7 +30,7 @@
         tools:layout="@layout/fragment_tools" />
 
     <fragment
-        android:id="@+id/nav_share"
+        android:id="@+id/nav_about"
         android:name="com.example.projetandroid.ui.share.ShareFragment"
         android:label="@string/menu_share"
         tools:layout="@layout/fragment_share" />
