@@ -16,10 +16,6 @@
             android:id="@+id/nav_bubble"
             android:icon="@drawable/ic_menu_game"
             android:title="@string/menu_bubble" />
-        <item
-            android:id="@+id/nav_tools"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="@string/menu_tools" />
     </group>
 
     <item android:title="Autre">
@@ -27,7 +23,7 @@
             <item
                 android:id="@+id/nav_about"
                 android:icon="@drawable/ic_menu_about"
-                android:title="@string/menu_share" />
+                android:title="@string/menu_about" />
         </menu>
     </item>
 
