@@ -29,14 +29,6 @@ class CustomView: View, OnTouchListener {
     }
     override fun onLayout(changed: Boolean, left: Int, top: Int, right: Int, bot: Int) {
         super.onLayout(changed, left, top, right, bot)
-        //mCircle = MagicCircle(width, height)
-        /*magicArray = Array<MagicCircle>(7, { i: Int -> MagicCircle(width, height) })
-        var i = 0;
-        for (circle in magicArray){
-            circle.cx += i
-            circle.cy += i
-            i+=10
-        }*/
     }
 
     override fun onTouch(v: View?, event: MotionEvent?): Boolean {
@@ -47,20 +39,10 @@ class CustomView: View, OnTouchListener {
         m.initColor()
         bubbleArray.add(nbBubble, m)
         nbBubble++
-        //nbBubbleTextView.setText("string").toString()
-        //println("nbBubble: " + nbBubbleTextView)
-        //val textViewValue = nbBubbleTextView.text
-        //bubbleText.setText(nbBubble)
-        //println("touch")
         return super.onTouchEvent(event)
     }
 
     override fun onDraw(canvas: Canvas?) {
-        /*mCircle.move()
-        canvas?.drawCircle(mCircle.cx, mCircle.cy, mCircle.rad, mPaint)
-        invalidate()*/
-        //for (circle in magicArray){
-        //println("draw")
         for (bubble in bubbleArray){
             //println("boucle")
             bubble.move()
@@ -71,7 +53,6 @@ class CustomView: View, OnTouchListener {
 
     private fun init() {
         super.setOnTouchListener(this)
-        /*mPaint.color = Color.BLUE*/
     }
 
     companion object {

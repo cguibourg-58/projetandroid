@@ -6,17 +6,9 @@ import com.example.projetandroid.R
 import kotlinx.android.synthetic.main.fragment_bubble.*
 
 class BubbleGameActivity : AppCompatActivity() {
-    //var nbBubbleTxt = findViewById(R.id.nbBubbleText) as TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.fragment_bubble)
-        //println("nb bubble: "+ nbBubbleTxt.text)
-        //nbBubbleTxt.setText("nombre de bulle : "+com.example.projetandroid.CustomView.DELTA).toString()
-        //nbBubbleTxt.text = "nombre de bulle : "+com.example.projetandroid.CustomView.).toString()
     }
-    /*nbBubbleTxt.setOnClickListener {
-        nbBubbleTxt.text = "hello"
-        println("nb bubble: "+ nbBubbleTxt.text)
-    }*/
 }
